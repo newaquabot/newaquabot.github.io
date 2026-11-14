@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Meet the team | AVATAR KINGS – Team 225</title>
+  <meta name="description" content="Meet Team 225, AVATAR KINGS: eight students who designed, built and programmed AquaBot.">
+  <meta property="og:title" content="Meet the team | AVATAR KINGS – Team 225">
+  <meta property="og:description" content="Meet Team 225, AVATAR KINGS: eight students who designed, built and programmed AquaBot.">
+  <meta property="og:image" content="images/team-logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="images/team-logo.jpg" alt="" width="44" height="44">
+        AVATAR KINGS
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html" aria-current="page">Team</a></li>
+        <li><a href="aquabot.html">AquaBot</a></li>
+        <li><a href="changemakers.html">Changemakers Award</a></li>
+        <li><a href="journey.html">Journey</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <h1>Meet the team</h1>
+        <p>Eight students from Team 225, building one robot together.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <div class="captain-card">
+          <div class="logo-frame">
+            <img src="images/team-logo.jpg" alt="AVATAR KING Team 225 logo: a crowned robot king holding a glowing globe with a tree" width="654" height="445">
+          </div>
+          <div class="prose">
+            <h2>Crowned by innovation, driven by vision</h2>
+            <p>We are AVATAR KINGS, Team 225. Our captain is Shreya Eleena Das, and every member helped design, build and program AquaBot.</p>
+            <p>Our tagline says what we did: code, create, conquer.</p>
+          </div>
+        </div>
+        <ul class="members">
+        <li class="member is-captain"><span class="avatar" aria-hidden="true">SD</span><span><b>Shreya Eleena Das</b><small>Team captain</small></span></li>
+        <li class="member"><span class="avatar" aria-hidden="true">ND</span><span><b>Naina Dachuri</b><small>Team member</small></span></li>
+        <li class="member"><span class="avatar" aria-hidden="true">AD</span><span><b>Anika Deulgaonkar</b><small>Team member</small></span></li>
+        <li class="member"><span class="avatar" aria-hidden="true">NS</span><span><b>Nandita Shetty</b><small>Team member</small></span></li>
+        <li class="member"><span class="avatar" aria-hidden="true">AS</span><span><b>Aashvi Saini</b><small>Team member</small></span></li>
+        <li class="member"><span class="avatar" aria-hidden="true">SB</span><span><b>Stuti Bansal</b><small>Team member</small></span></li>
+        <li class="member"><span class="avatar" aria-hidden="true">OP</span><span><b>Olivia Paul</b><small>Team member</small></span></li>
+        <li class="member"><span class="avatar" aria-hidden="true">TI</span><span><b>Tanvi Iyer</b><small>Team member</small></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="band-green">
+      <div class="wrap">
+        <h2>Code. Create. Conquer.</h2>
+        <div class="values">
+          <div><h3>Code</h3><p>We programmed the robot so its motors, sensors and control system work as one.</p></div>
+          <div><h3>Create</h3><p>We started from our own idea and designed a robot to match it.</p></div>
+          <div><h3>Conquer</h3><p>We took a real problem on farms and built a working answer to it.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span><strong>AVATAR KINGS</strong> · Team 225</span>
+      <span>Code. Create. Conquer.</span>
+    </div>
+  </footer>
+
+  <script>
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

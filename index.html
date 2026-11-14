@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>AVATAR KINGS – Team 225 | AquaBot</title>
+  <meta name="description" content="Team 225, AVATAR KINGS. Meet AquaBot, the farm robot that learns when each plant needs water.">
+  <meta property="og:title" content="AVATAR KINGS – Team 225">
+  <meta property="og:description" content="Code. Create. Conquer. Meet AquaBot, the farm robot that waters each plant exactly when it needs it.">
+  <meta property="og:image" content="images/aquabot-hero.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="images/team-logo.jpg" alt="" width="44" height="44">
+        AVATAR KINGS
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="aquabot.html">AquaBot</a></li>
+        <li><a href="changemakers.html">Changemakers Award</a></li>
+        <li><a href="journey.html">Journey</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <div class="hero">
+      <img class="hero-img" src="images/aquabot-hero.jpg" alt="AquaBot, a green and white farm robot with a solar panel, watering young plants at sunset">
+      <div class="wrap">
+        <div class="hero-copy">
+          <p class="team-line">Team 225</p>
+          <h1>AVATAR KINGS</h1>
+          <p class="tagline">Code. Create. Conquer.</p>
+          <p class="sub">Crowned by innovation, driven by vision. We built AquaBot, a robot that gives every plant the water it needs and no more.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="aquabot.html">Meet AquaBot</a>
+            <a class="btn btn-ghost" href="journey.html">See how we built it</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Problem and how AquaBot learns -->
+    <section class="problem">
+      <div class="wrap grid">
+        <div>
+          <h2>Big farms are hard to watch, plant by plant</h2>
+          <p class="lede">Farms are growing, there are fewer people to work them, and a small change in the soil is easy to miss. That means wasted crops, lower yields and a lot of wasted water.</p>
+          <p class="lede">We think technology should help farmers by cutting effort and mistakes, so farming can be more sustainable.</p>
+        </div>
+        <div>
+          <h2>How AquaBot learns</h2>
+          <ol class="steps">
+            <li><strong>It measures</strong><span>AquaBot keeps recording the soil moisture around each plant.</span></li>
+            <li><strong>It notices</strong><span>It learns how fast each patch of soil dries and spots unusual changes.</span></li>
+            <li><strong>It predicts</strong><span>It works out when each plant will need water.</span></li>
+            <li><strong>It remembers</strong><span>It keeps track of which watering methods worked best.</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- SDGs -->
+    <section class="goals">
+      <div class="wrap">
+        <h2>Three UN goals behind AquaBot</h2>
+        <p class="lede">Watering each plant precisely helps people, crops and the planet.</p>
+        <div class="goal-list">
+          <div class="goal">
+            <div class="sdg">SDG 6</div>
+            <h3>Clean water and sanitation</h3>
+            <p>Plant-by-plant watering cuts down on unnecessary water use.</p>
+          </div>
+          <div class="goal">
+            <div class="sdg">SDG 2</div>
+            <h3>Zero hunger</h3>
+            <p>Healthier crops, fewer losses and better farm productivity.</p>
+          </div>
+          <div class="goal">
+            <div class="sdg">SDG 12</div>
+            <h3>Responsible consumption and production</h3>
+            <p>Water and farm resources are used efficiently.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team-strip">
+      <div class="wrap grid">
+        <div class="logo-frame">
+          <img src="images/team-logo.jpg" alt="AVATAR KING Team 225 logo: a crowned robot king holding a glowing globe with a tree" width="654" height="445">
+        </div>
+        <div>
+          <h2>Eight students, one team</h2>
+          <p class="captain">Captain: Shreya Eleena Das</p>
+          <ul class="names">
+            <li class="cap">Shreya Eleena Das</li>
+            <li>Naina Dachuri</li>
+            <li>Anika Deulgaonkar</li>
+            <li>Nandita Shetty</li>
+            <li>Aashvi Saini</li>
+            <li>Stuti Bansal</li>
+            <li>Olivia Paul</li>
+            <li>Tanvi Iyer</li>
+          </ul>
+          <a class="btn btn-dark" href="team.html">Meet the team</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span><strong>AVATAR KINGS</strong> · Team 225</span>
+      <span>Code. Create. Conquer.</span>
+    </div>
+  </footer>
+
+  <script>
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

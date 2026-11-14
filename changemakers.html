@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Changemakers Award | AVATAR KINGS – Team 225</title>
+  <meta name="description" content="Why Team 225 built AquaBot: smarter, more sustainable farming that supports UN goals 6, 2 and 12.">
+  <meta property="og:title" content="Changemakers Award | AVATAR KINGS – Team 225">
+  <meta property="og:description" content="Why Team 225 built AquaBot: smarter, more sustainable farming that supports UN goals 6, 2 and 12.">
+  <meta property="og:image" content="images/aquabot-hero.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="images/team-logo.jpg" alt="" width="44" height="44">
+        AVATAR KINGS
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="aquabot.html">AquaBot</a></li>
+        <li><a href="changemakers.html" aria-current="page">Changemakers Award</a></li>
+        <li><a href="journey.html">Journey</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <h1>Changemakers Award</h1>
+        <p>Technology that helps farmers use less water and grow more.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="wrap split">
+        <div class="prose">
+          <h2>Farming should not be left behind</h2>
+          <p>Technology is moving fast in cities, and agriculture must keep up. With more urbanisation, a growing population and fewer people to work the land, farmers need smarter and more efficient ways to manage their fields.</p>
+          <p>Large farms are difficult to monitor by hand, and even small changes in the soil can go unnoticed. That can mean wasted crops, lower yields and unnecessary water use.</p>
+          <p>We believe technology should empower farmers by reducing effort, cutting errors and making agriculture more sustainable.</p>
+        </div>
+        <figure style="margin:0">
+          <div class="framed"><img src="images/aquabot-hero.jpg" alt="AquaBot watering young plants in a field at sunset" width="1536" height="1024"></div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="band-green problem">
+      <div class="wrap grid">
+        <div>
+          <h2>Our answer: AquaBot</h2>
+          <p class="lede">AquaBot learns how its field behaves, so watering can be planned for each plant.</p>
+        </div>
+        <ol class="steps">
+          <li><strong>It records</strong><span>AquaBot continuously records soil moisture levels.</span></li>
+          <li><strong>It learns</strong><span>It learns how quickly the soil around each plant dries.</span></li>
+          <li><strong>It spots problems</strong><span>It uses this history to identify unusual changes in drying rates.</span></li>
+          <li><strong>It predicts and remembers</strong><span>It predicts when each plant will need water and remembers which watering methods worked best.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="goals">
+      <div class="wrap">
+        <h2>Goals we support</h2>
+        <p class="lede">AquaBot connects to three of the United Nations Sustainable Development Goals.</p>
+        <div style="margin-top:2.5rem">
+          <div class="sdg-row"><div class="sdg">SDG 6</div><div><h3>Clean water and sanitation</h3><p>Reduces unnecessary water consumption through precise, plant-specific irrigation.</p></div></div>
+          <div class="sdg-row"><div class="sdg">SDG 2</div><div><h3>Zero hunger</h3><p>Promotes healthier crops, minimises potential crop losses and improves agricultural productivity.</p></div></div>
+          <div class="sdg-row"><div class="sdg">SDG 12</div><div><h3>Responsible consumption and production</h3><p>Encourages efficient use of water and agricultural resources.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap">
+        <h2>See the robot behind the idea</h2>
+        <div class="hero-actions">
+          <a class="btn btn-dark" href="aquabot.html">Meet AquaBot</a>
+          <a class="btn btn-dark" href="journey.html">See our journey</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span><strong>AVATAR KINGS</strong> · Team 225</span>
+      <span>Code. Create. Conquer.</span>
+    </div>
+  </footer>
+
+  <script>
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

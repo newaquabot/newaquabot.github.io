@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>AquaBot | AVATAR KINGS – Team 225</title>
+  <meta name="description" content="AquaBot is Team 225's farm robot. It learns how fast the soil dries around each plant and predicts when each one needs water.">
+  <meta property="og:title" content="AquaBot | AVATAR KINGS – Team 225">
+  <meta property="og:description" content="AquaBot is Team 225's farm robot. It learns how fast the soil dries around each plant and predicts when each one needs water.">
+  <meta property="og:image" content="images/aquabot-hero.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="images/team-logo.jpg" alt="" width="44" height="44">
+        AVATAR KINGS
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="aquabot.html" aria-current="page">AquaBot</a></li>
+        <li><a href="changemakers.html">Changemakers Award</a></li>
+        <li><a href="journey.html">Journey</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <h1>AquaBot</h1>
+        <p>A robot that learns when each plant needs water, so no plant gets too much or too little.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="wrap split">
+        <div class="prose">
+          <h2>Watering plant by plant</h2>
+          <p>On a large farm it is hard to check every plant by eye, and small changes in the soil go unnoticed. AquaBot keeps track of the soil around each plant so watering can match what each plant actually needs.</p>
+          <p>Less guesswork means less wasted water and healthier crops.</p>
+        </div>
+        <figure style="margin:0">
+          <div class="framed"><img src="images/aquabot-hero.jpg" alt="AquaBot, a green and white farm robot with a solar panel, watering young plants at sunset" width="1536" height="1024"></div>
+          <figcaption class="caption">Concept image of AquaBot in the field.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="band-green problem">
+      <div class="wrap grid">
+        <div>
+          <h2>How AquaBot learns</h2>
+          <p class="lede">AquaBot does more than sense dry soil. It learns each plant's pattern over time.</p>
+        </div>
+        <ol class="steps">
+          <li><strong>It measures</strong><span>AquaBot keeps recording the soil moisture around each plant.</span></li>
+          <li><strong>It notices</strong><span>It learns how quickly the soil around each plant dries, and spots unusual changes in that drying rate.</span></li>
+          <li><strong>It predicts</strong><span>It works out when each individual plant will need watering.</span></li>
+          <li><strong>It remembers</strong><span>It keeps track of which watering methods have been most effective.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>What is inside</h2>
+        <p class="lede">Each part was designed to work together to perform a specific task.</p>
+        <ul class="parts">
+          <li><strong>Motors</strong><span>Power the robot's movement.</span></li>
+          <li><strong>Wheels</strong><span>Carry AquaBot across the field.</span></li>
+          <li><strong>Sensors</strong><span>Read the soil moisture around each plant.</span></li>
+          <li><strong>Control system</strong><span>Joins the parts together and runs our code.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="band-green">
+      <div class="wrap split flip">
+        <div class="photo-slot">
+          <div>Photo of the real AquaBot<span>Replace this box with a photo of the robot we built.</span></div>
+        </div>
+        <div class="prose">
+          <h2>Built by the team</h2>
+          <p>We designed, assembled, built and programmed AquaBot ourselves. Read how it came together, step by step.</p>
+          <p><a class="btn btn-dark" href="journey.html">See our journey</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span><strong>AVATAR KINGS</strong> · Team 225</span>
+      <span>Code. Create. Conquer.</span>
+    </div>
+  </footer>
+
+  <script>
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

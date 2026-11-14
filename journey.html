@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Our journey | AVATAR KINGS – Team 225</title>
+  <meta name="description" content="How Team 225 designed, assembled, built and programmed AquaBot, step by step.">
+  <meta property="og:title" content="Our journey | AVATAR KINGS – Team 225">
+  <meta property="og:description" content="How Team 225 designed, assembled, built and programmed AquaBot, step by step.">
+  <meta property="og:image" content="images/aquabot-hero.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="images/team-logo.jpg" alt="" width="44" height="44">
+        AVATAR KINGS
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="aquabot.html">AquaBot</a></li>
+        <li><a href="changemakers.html">Changemakers Award</a></li>
+        <li><a href="journey.html" aria-current="page">Journey</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <h1>The journey of building our robot</h1>
+        <p>Making the robot was a long task. From designing, to assembling the parts, to building and finally programming it, we learnt many new things.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <h2>From idea to working robot</h2>
+        <p class="lede">The robot was created by combining creativity, innovation and technology. Here is how it came together.</p>
+        <ol class="timeline">
+        <li>
+          <h3>Designing</h3>
+          <p>We planned the robot and designed each part to work together and perform a specific task.</p>
+          <div class="photo-slot"><div>Photo: sketches or design notes<span>Replace this box with a photo from this stage.</span></div></div>
+        </li>
+        <li>
+          <h3>Assembling the parts</h3>
+          <p>We carefully put together the motors, sensors, wheels and control system.</p>
+          <div class="photo-slot"><div>Photo: the parts laid out<span>Replace this box with a photo from this stage.</span></div></div>
+        </li>
+        <li>
+          <h3>Building</h3>
+          <p>We turned the plan into a real robot, one piece at a time, with every team member helping.</p>
+          <div class="photo-slot"><div>Photo: the team building<span>Replace this box with a photo from this stage.</span></div></div>
+        </li>
+        <li>
+          <h3>Programming</h3>
+          <p>We wrote the code that lets the parts work as one robot.</p>
+          <div class="photo-slot"><div>Photo: the team coding<span>Replace this box with a photo from this stage.</span></div></div>
+        </li>
+        <li>
+          <h3>Testing</h3>
+          <p>Through testing, we turned our idea into a working robot.</p>
+          <div class="photo-slot"><div>Photo: the finished robot<span>Replace this box with a photo from this stage.</span></div></div>
+        </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band-green">
+      <div class="wrap">
+        <p class="pull">It could not have been done without <em>every team member</em>.</p>
+        <p class="cta-band" style="margin:2rem 0 0"><a class="btn btn-dark" href="team.html">Meet the team</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span><strong>AVATAR KINGS</strong> · Team 225</span>
+      <span>Code. Create. Conquer.</span>
+    </div>
+  </footer>
+
+  <script>
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>
