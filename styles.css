@@ -561,15 +561,22 @@ h2 {
 
 .avatar {
   flex: none;
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   display: grid;
   place-items: center;
   background: var(--emerald);
-  color: #fff;
-  font-family: var(--font-display);
-  font-weight: 800;
+  color: #cfe9da;
+  overflow: hidden;
+}
+
+.avatar svg { width: 62%; height: 62%; display: block; }
+
+.avatar-photo {
+  object-fit: cover;
+  background: #e5efe8;
+  box-shadow: 0 0 0 2px var(--volt);
 }
 
 .is-captain .avatar { background: var(--leaf); color: var(--forest); }
