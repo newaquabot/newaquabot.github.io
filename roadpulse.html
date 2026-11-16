@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>RoadPulse | AVATAR KINGS – Team 225</title>
+  <meta name="description" content="RoadPulse is Team 225\'s proposed road health monitoring application, built on the same robot technology as AquaBot.">
+  <meta property="og:title" content="RoadPulse | AVATAR KINGS – Team 225">
+  <meta property="og:description" content="RoadPulse is Team 225\'s proposed road health monitoring application, built on the same robot technology as AquaBot.">
+  <meta property="og:image" content="images/roadpulse.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="images/team-logo.jpg" alt="" width="44" height="44">
+        AVATAR KINGS
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="aquabot.html">AquaBot</a></li>
+        <li><a href="roadpulse.html" aria-current="page">RoadPulse</a></li>
+        <li><a href="changemakers.html">Changemakers Award</a></li>
+        <li><a href="journey.html">Journey</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-head">
+      <div class="wrap">
+        <h1>RoadPulse</h1>
+        <p>Another use for our robot technology: monitoring the health of our roads.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="wrap">
+        <div class="prose">
+          <h2>Beyond AquaBot</h2>
+          <p>Beyond AquaBot, we also envision extending the capabilities of our NRL competition robot to address other real-world challenges.</p>
+          <p>Our current robot already has mobility and object-picking capabilities. We propose modifying it with additional features, such as a camera, suitable sensors and an advanced mapping system, to develop RoadPulse, a road health monitoring application.</p>
+        </div>
+        <figure style="margin:2.5rem 0 0">
+          <div class="framed"><img src="images/roadpulse.jpg" alt="Concept image of RoadPulse: a yellow and white wheeled robot scanning a cracked road, with labels for its camera, sensors and mapping system and a road health report map" width="1536" height="1024"></div>
+          <figcaption class="caption">Concept image of RoadPulse.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="band-green problem">
+      <div class="wrap grid">
+        <div>
+          <h2>What RoadPulse would do</h2>
+          <p class="lede">RoadPulse would use these additions to look after the road surface and keep track of how it changes over time.</p>
+        </div>
+        <ol class="steps">
+          <li><strong>It scans</strong><span>Using the added camera and sensors, it scans road surfaces.</span></li>
+          <li><strong>It identifies</strong><span>It identifies cracks and uneven areas.</span></li>
+          <li><strong>It records</strong><span>It records the location of each problem it finds.</span></li>
+          <li><strong>It estimates</strong><span>By keeping a history of road conditions, it could help identify deteriorating sections and estimate which areas may need maintenance sooner.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>From our robot to RoadPulse</h2>
+        <p class="lede">We start with what our robot can already do, then add what road monitoring needs.</p>
+        <ul class="parts">
+          <li><strong>Already in our robot</strong><span>Mobility and object-picking capabilities.</span></li>
+          <li><strong>A camera</strong><span>Captures road images.</span></li>
+          <li><strong>Suitable sensors</strong><span>Detect cracks and uneven areas.</span></li>
+          <li><strong>An advanced mapping system</strong><span>Records locations and creates maps.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="goals">
+      <div class="wrap">
+        <h2>Goals RoadPulse supports</h2>
+        <p class="lede">This additional application connects to two more of the United Nations Sustainable Development Goals.</p>
+        <div style="margin-top:2.5rem">
+          <div class="sdg-row"><div class="sdg">SDG 9</div><div><h3>Industry, innovation and infrastructure</h3><p>Encourages smarter and more resilient infrastructure through technological innovation.</p></div></div>
+          <div class="sdg-row"><div class="sdg">SDG 11</div><div><h3>Sustainable cities and communities</h3><p>Promotes safer roads and more efficient urban infrastructure maintenance.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band-green">
+      <div class="wrap">
+        <p class="pull">RoadPulse shows how our existing robotics technology can be <em>adapted</em> to address challenges beyond the competition field.</p>
+        <p class="cta-band" style="margin:2rem 0 0"><a class="btn btn-dark" href="aquabot.html">Back to AquaBot</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span><strong>AVATAR KINGS</strong> · Team 225</span>
+      <span>Code. Create. Conquer.</span>
+    </div>
+  </footer>
+
+  <script>
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.getElementById('nav-links');
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>
